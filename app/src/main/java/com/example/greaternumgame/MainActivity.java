@@ -24,9 +24,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         //Binding
-        btnFirstNum = findViewById(R.id.btnFirstNum);
+        //btnFirstNum = findViewById(R.id.btnFirstNum);
         btnSecondNum = findViewById(R.id.btnSecondNum);
         tvTotalScore = findViewById(R.id.tvTotalSore);
+
+        btnFirstNum = (Button) findViewById(R.id.btnFirstNum);
+
         btnFirstNum.setOnClickListener(this);
         btnSecondNum.setOnClickListener(this);
         getRandomNumber();

@@ -42,6 +42,7 @@
         android:textColor="#fff"
         android:layout_width="150dp"
         android:layout_height="50dp"
+        android:textStyle="bold|normal"
         />
 
 
@@ -54,6 +55,7 @@
         android:background="#0e7d0d"
         android:textColor="#fff"
         android:layout_width="150dp"
+        android:textStyle="bold|normal"
         android:layout_height="50dp"
         />
 
@@ -69,7 +71,7 @@
         android:layout_marginTop="88dp"
         android:layout_width="130dp"
         android:layout_height="50dp"
-        android:textStyle="normal|bold"
+        android:textStyle="italic|bold"
         />
 
 
